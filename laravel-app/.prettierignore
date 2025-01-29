@@ -1,0 +1,48 @@
+# Ignore Laravel-specific files and directories
+/bootstrap/
+/storage/
+/vendor/
+/node_modules/
+/public/
+/resources/js/bootstrap.js
+/resources/js/components/*
+artisan
+
+# Ignore compiled assets
+/public/css/
+/public/js/
+/public/mix-manifest.json
+
+# Ignore configuration files
+/.env
+/.env.example
+/.gitignore
+/.prettierignore
+/.phpstorm.meta.php
+/.idea/
+/.vscode/
+
+# Ignore logs and cache
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+
+# Ignore test-related files
+/tests/
+/phpunit.xml
+
+# Ignore Composer files
+/composer.lock
+/composer.phar
+/vendor/
+
+# Ignore IDE-specific files
+/.idea/
+/.vscode/
+/.editorconfig
+
+# Ignore other common files
+/.github/
+/.git/
+/.DS_Store

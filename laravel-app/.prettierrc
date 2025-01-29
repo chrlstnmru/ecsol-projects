@@ -1,0 +1,32 @@
+{
+  "printWidth": 120,
+  "plugins": ["@prettier/plugin-php", "@shufo/prettier-plugin-blade"],
+  "singleQuote": true,
+  "useTabs": false,
+  "tabWidth": 2,
+  "semi": true,
+  "trailingComma": "es5",
+  "bracketSpacing": true,
+  "arrowParens": "always",
+  "endOfLine": "lf",
+  "overrides": [
+    {
+      "files": ["*.php"],
+      "options": {
+        "parser": "php",
+        "braceStyle": "1tbs",
+        "trailingComma": "all"
+      }
+    },
+    {
+      "files": ["*.blade.php"],
+      "options": {
+        "parser": "blade",
+        "wrapAttributes": "auto",
+        "endWithNewLine": true,
+        "sortTailwindcssClasses": true,
+        "sortHtmlAttributes": "code-guide"
+      }
+    }
+  ]
+}
